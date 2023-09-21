@@ -1,0 +1,88 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: #faf9f6;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+
+  }
+  .main {
+    flex: 1;
+  }
+  .span{
+    color:blueviolet;
+  }
+  .span1{
+    color:blue;
+  }
+  .span2{
+    color:rgb(27, 2, 18);
+  }
+  h3{
+    font-size: medium;
+  }
+  
+@media (max-width: 680px) {
+    .logo {
+      width: 100px;
+    }
+}
+  .jag-img {
+    height:350px;
+   float: right;
+  }
+  .jag{
+    overflow: auto;
+  }
+  a{
+    color:blue
+
+  }
+  .seq{
+    margin-top:100px;
+    overflow: auto;
+  }
+  .yad{
+    margin-top:100px;
+    overflow: auto;
+  }
+  .gol{
+    margin-top:100px;
+    overflow: auto;
+  }
+  .seq-img {
+    height:330px;
+   display:flex;
+   float:left;
+  }
+  .yad-img {
+    height:330px;
+   display:flex;
+   float:right;
+  }
+  .gol-img {
+    height:330px;
+   display:flex;
+   float:left;
+  }
+  .foot1{
+    text-align: center;
+  }
+ ul{
+  display: inline-block;
+ }
+  
+  .f1{
+    text-align:center;
+  }
+  .foot1{
+    height:200px;
+    background-color: lightgray;
+  }
+  footer {
+    text-align: right;
+    color: rgb(15, 15, 179);
+    font-weight: bolder;
+  }
